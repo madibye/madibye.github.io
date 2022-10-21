@@ -71,15 +71,24 @@ body {
 }
 
 #about-me-pfp {
-    height: 9vmin;
+    height: 8vmin;
     vertical-align: text-top;
     padding: 0 1vw 0;
     filter: drop-shadow(0px 0px 7px #663399);
 }
 
+#about-me-title {
+    position: relative;
+    font-size: 6.5vmin;
+    word-break: keep-all;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 30px #663399);
+    padding: 5vh 0;
+}
+
 .about-me-list {
     position: relative;
-    padding: 0 20vw;
+    padding: 0 20vw 2vh;
 }
 
 .about-me-text {
