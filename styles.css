@@ -15,21 +15,29 @@ body {
     background-image: radial-gradient(ellipse, #ffb1ff 12%, #8d2ced);
     background-repeat: repeat-y;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .title {
     position: relative;
-    font-size: 5vh;
+    font-size: 6vmin;
+    word-break: keep-all;
     font-weight: bolder;
-    filter: drop-shadow(0px 0px 30px #663399);
-    padding: 2vh 0;
+    filter: drop-shadow(0 0 30px #663399);
+    padding: 1vh 0;
 }
 
 .pfp {
     position: relative;
     text-align: center;
-    padding: 5vh 0 12.5vh;
+    padding: 2.5vh 0 12.5vh;
+}
+
+.pfp-img {
+    width: auto;
+    height: 30vmin;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 30px #663399);
 }
 
 .links {
@@ -38,17 +46,10 @@ body {
 
 .link-img {
     width: auto;
-    height: 7.5vh;
+    height: 8vmin;
     padding: 2.5vh 2.5vw 0;
     filter: drop-shadow(0px 0px 40px #663399);
     vertical-align: top;
-}
-
-.pfp-img {
-    width: auto;
-    height: 30vh;
-    border-radius: 50%;
-    filter: drop-shadow(0px 0px 30px #663399);
 }
 
 .discord-copy {
@@ -58,7 +59,7 @@ body {
 }
 
 .discord-tooltip {
-    font-size: 2vh;
+    font-size: 2vmin;
     padding: 0 0 2.5vh;
     filter: drop-shadow(0px 0px 30px #663399);
 }
