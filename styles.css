@@ -52,14 +52,60 @@ body {
     vertical-align: top;
 }
 
-.discord-copy {
+.link-button {
     border: none !important;
     background: transparent;
     cursor: pointer;
+    vertical-align: top;
 }
 
-.discord-tooltip {
+.tooltip {
+    visibility: hidden;
     font-size: 2vmin;
     padding: 0 0 2.5vh;
     filter: drop-shadow(0px 0px 30px #663399);
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 18vw;
+    margin-left: -10.1vw;
+    background-color: rebeccapurple;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    outline: black solid 0.14vw;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 0.8}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 0.8;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 0.8;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 0.8;}
+    to {bottom: 0; opacity: 0;}
 }

@@ -12,16 +12,23 @@
             <div class="title"><h1>Madi Simpson</h1></div>
             <div class="pfp"><img src="https://github.com/madibye.png" alt="Madi!!!" class="pfp-img"></div>
             <div class="links">
-                <a href="https://github.com/madibye">
+                <button onclick="window.location.href='https://github.com/madibye';" class="link-button" onmouseenter="displayTooltip('github-tt')" onmouseleave="hideTooltip('github-tt')">
                     <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833780592951326/25231.png" alt="GitHub" class="link-img"></a>
-                <a href="https://twitter.com/madibyee">
-                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833683217989662/733635.png" alt="Twitter" class="link-img"></a>
-                <a href="https://en.pronouns.page/@madibye">
-                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833016738889748/pronouns-page-logo.png" alt="Pronouns Page" class="link-img"></a>
-                <button onclick="copyText()" class="discord-copy" id="discord">
-                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833875954647061/5968968.png" alt="Discord" class="link-img">
-                    <div class="discord-tooltip" id="tt">Copy my tag!</div>
+                    <div class="tooltip" id="github-tt">GitHub</div>
                 </button>
+                <button onclick="window.location.href='https://twitter.com/madibyee';" class="link-button" onmouseenter="displayTooltip('twitter-tt')" onmouseleave="hideTooltip('twitter-tt')">
+                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833683217989662/733635.png" alt="Twitter" class="link-img"></a>
+                <div class="tooltip" id="twitter-tt">Twitter</div>
+                </button>
+                <button onclick="window.location.href='https://en.pronouns.page/@madibye';" class="link-button" onmouseenter="displayTooltip('pp-tt')" onmouseleave="hideTooltip('pp-tt')">
+                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833016738889748/pronouns-page-logo.png" alt="Pronouns Page" class="link-img">
+                    <div class="tooltip" id="pp-tt">Pronouns Page</div>
+                </button>
+                <button class="link-button" onclick="copyText(); snackbar('snackbar');" onmouseenter="displayTooltip('discord-tt')" onmouseleave="hideTooltip('discord-tt')" id="discord">
+                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833875954647061/5968968.png" alt="Discord" class="link-img">
+                    <div class="tooltip" id="discord-tt">Discord</div>
+                </button>
+                <div id="snackbar">Copied my Discord tag to your clipboard!</div>
             </div>
         </div>
     </div>
