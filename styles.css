@@ -1,0 +1,56 @@
+.body-text {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(ellipse, #ffb1ff 12%, #8d2ced);
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.title {
+    position: relative;
+    font-size: 30px;
+    text-effect: emboss;
+    filter: drop-shadow(0px 0px 30px #663399);
+}
+
+.pfp {
+    position: relative;
+    text-align: center;
+    padding: 5% 0 10%;
+}
+
+.links {
+    position: relative;
+}
+
+.link-img {
+    width: auto;
+    height: 50px;
+    padding: 0 30px;
+    filter: drop-shadow(0px 0px 40px #663399);
+}
+
+.pfp-img {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 30px #663399);
+}
+
+.discord-copy {
+    border: none !important;
+    background: transparent;
+    cursor: pointer;
+}
