@@ -30,7 +30,7 @@ body {
 .pfp {
     position: relative;
     text-align: center;
-    padding: 2.5vh 0 12.5vh;
+    padding: 2.5vh 0 10vh;
 }
 
 .pfp-img {
@@ -61,9 +61,34 @@ body {
 
 .tooltip {
     visibility: hidden;
+    position: relative;
     font-size: 2vmin;
-    padding: 0 0 2.5vh;
     filter: drop-shadow(0px 0px 30px #663399);
+}
+
+#about-me-tt {
+    font-size: 3vmin;
+}
+
+#about-me-pfp {
+    height: 9vmin;
+    vertical-align: text-top;
+    padding: 0 1vw 0;
+    filter: drop-shadow(0px 0px 7px #663399);
+}
+
+.about-me-list {
+    position: relative;
+    padding: 0 20vw;
+}
+
+.about-me-text {
+    font-size: 3vmin;
+    text-align: center;
+    word-break: keep-all;
+    font-weight: normal;
+    filter: drop-shadow(0 0 15px #663399);
+    padding: 1vh 0;
 }
 
 #snackbar {
