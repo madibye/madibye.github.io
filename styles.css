@@ -15,20 +15,21 @@ body {
     background-image: radial-gradient(ellipse, #ffb1ff 12%, #8d2ced);
     background-repeat: repeat-y;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .title {
     position: relative;
     font-size: 5vh;
-    text-effect: emboss;
+    font-weight: bolder;
     filter: drop-shadow(0px 0px 30px #663399);
+    padding: 2vh 0;
 }
 
 .pfp {
     position: relative;
     text-align: center;
-    padding: 7.5vh 0 15vh;
+    padding: 5vh 0 12.5vh;
 }
 
 .links {
@@ -38,7 +39,7 @@ body {
 .link-img {
     width: auto;
     height: 7.5vh;
-    padding: 0 2.5vw;
+    padding: 2.5vh 2.5vw 0;
     filter: drop-shadow(0px 0px 40px #663399);
     vertical-align: top;
 }
@@ -58,5 +59,6 @@ body {
 
 .discord-tooltip {
     font-size: 2vh;
+    padding: 0 0 2.5vh;
     filter: drop-shadow(0px 0px 30px #663399);
 }
