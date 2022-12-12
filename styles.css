@@ -45,21 +45,32 @@ body {
 
 .links {
     position: relative;
+    vertical-align: middle;
+    horiz-align: center;
 }
 
 .link-img {
-    width: auto;
-    height: 8vmin;
-    padding: 2.5vh 2.5vw 0;
+    width: 8vmin;
+    height: auto;
+    padding: 2.5vh 2vw 0;
     filter: drop-shadow(0px 0px 40px #663399);
-    vertical-align: top;
+    vertical-align: middle;
+}
+
+#pp-li {
+    width: 10vmin;
+    padding: 2.5vh 0.7vw 0;
+}
+
+#tumblr-li {
+    width: 4.5vmin;
 }
 
 .link-button {
     border: none !important;
     background: transparent;
     cursor: pointer;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .tooltip {

@@ -18,29 +18,39 @@
                 </button>
             </div>
             <div class="links">
-                <button onclick="window.location.href='https://github.com/madibye';" class="link-button"
-                        onmouseenter="displayTooltip('github-tt')" onmouseleave="hideTooltip('github-tt')">
-                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833780592951326/25231.png"
-                         alt="GitHub" class="link-img">
-                    <br><span class="tooltip" id="github-tt">GitHub</span>
-                </button>
                 <button onclick="window.location.href='https://twitter.com/madibyee';" class="link-button"
-                        onmouseenter="displayTooltip('twitter-tt')" onmouseleave="hideTooltip('twitter-tt')">
+                        onmouseenter="displayTooltip('twitter-tt')" onmouseleave="hideTooltip('twitter-tt')"
+                        id="twitter-lb">
                     <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833683217989662/733635.png"
-                         alt="Twitter" class="link-img">
+                         alt="Twitter" class="link-img" id="twitter-li">
                     <br><span class="tooltip" id="twitter-tt">Twitter</span>
                 </button>
+                <button onclick="window.location.href='https://madibyee.tumblr.com';" class="link-button"
+                        onmouseenter="displayTooltip('tumblr-tt')" onmouseleave="hideTooltip('tumblr-tt')"
+                        id="tumblr-lb">
+                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1051991198023307404/t-black.png"
+                         alt="Tumblr" class="link-img" id="tumblr-li">
+                    <br><span class="tooltip" id="tumblr-tt">Tumblr</span>
+                </button>
+                <button onclick="window.location.href='https://github.com/madibye';" class="link-button"
+                        onmouseenter="displayTooltip('github-tt')" onmouseleave="hideTooltip('github-tt')"
+                        id="github-lb">
+                    <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833780592951326/25231.png"
+                         alt="GitHub" class="link-img" id="github-li">
+                    <br><span class="tooltip" id="github-tt">GitHub</span>
+                </button>
                 <button onclick="window.location.href='https://en.pronouns.page/@madibye';" class="link-button"
-                        onmouseenter="displayTooltip('pp-tt')" onmouseleave="hideTooltip('pp-tt')">
+                        onmouseenter="displayTooltip('pp-tt')" onmouseleave="hideTooltip('pp-tt')"
+                        id="pp-lb">
                     <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833016738889748/pronouns-page-logo.png"
-                         alt="Pronouns Page" class="link-img">
+                         alt="Pronouns Page" class="link-img" id="pp-li">
                     <br><span class="tooltip" id="pp-tt">Pronouns Page</span>
                 </button>
                 <button class="link-button" onclick="copyText(); snackbar('snackbar');"
                         onmouseenter="displayTooltip('discord-tt')" onmouseleave="hideTooltip('discord-tt')"
-                        id="discord">
+                        id="discord-lb">
                     <img src="https://cdn.discordapp.com/attachments/802987909980356619/1032833875954647061/5968968.png"
-                         alt="Discord" class="link-img">
+                         alt="Discord" class="link-img" id="discord-li">
                     <br><span class="tooltip" id="discord-tt">Discord</span>
                 </button>
                 <span id="snackbar">Copied my Discord tag to your clipboard!</span>
