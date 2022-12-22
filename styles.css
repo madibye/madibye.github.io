@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: radial-gradient(ellipse, #ffb1ff 12%, #8d2ced);
+    background-image: radial-gradient(ellipse, #ffa0da 12%, #ff69b8);
     background-repeat: repeat-y;
     overflow-x: hidden;
     overflow-y: auto;
@@ -26,7 +26,7 @@ body {
     font-size: 6vmin;
     word-break: keep-all;
     font-weight: bolder;
-    filter: drop-shadow(0 0 30px #663399);
+    filter: drop-shadow(0 0 30px #ffa0da);
     padding: 1vh 0;
 }
 
@@ -40,7 +40,7 @@ body {
     width: auto;
     height: 30vmin;
     border-radius: 50%;
-    filter: drop-shadow(0px 0px 30px #663399);
+    filter: drop-shadow(0px 0px 30px #ffa0da);
 }
 
 .links {
@@ -53,7 +53,7 @@ body {
     width: 8vmin;
     height: auto;
     padding: 2.5vh 2vw 0;
-    filter: drop-shadow(0px 0px 40px #663399);
+    filter: drop-shadow(0px 0px 40px #ffa0da);
     vertical-align: middle;
 }
 
@@ -77,7 +77,7 @@ body {
     visibility: hidden;
     position: relative;
     font-size: 2vmin;
-    filter: drop-shadow(0px 0px 30px #663399);
+    filter: drop-shadow(0px 0px 30px #ffa0da);
 }
 
 #about-me-tt {
@@ -88,7 +88,7 @@ body {
     height: 8vmin;
     vertical-align: text-top;
     padding: 0 1vw 0;
-    filter: drop-shadow(0px 0px 7px #663399);
+    filter: drop-shadow(0px 0px 7px #ffa0da);
 }
 
 #about-me-title {
@@ -96,7 +96,7 @@ body {
     font-size: 6.5vmin;
     word-break: keep-all;
     font-weight: bolder;
-    filter: drop-shadow(0 0 30px #663399);
+    filter: drop-shadow(0 0 30px #ffa0da);
     padding: 5vh 0;
 }
 
@@ -110,7 +110,7 @@ body {
     text-align: center;
     word-break: keep-all;
     font-weight: normal;
-    filter: drop-shadow(0 0 15px #663399);
+    filter: drop-shadow(0 0 15px #ffa0da);
     padding: 1vh 0;
 }
 
